@@ -1,0 +1,1 @@
+export { default as HomeHero } from "./images/Home-hero.webp"
