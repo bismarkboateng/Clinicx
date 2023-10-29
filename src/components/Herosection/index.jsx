@@ -4,9 +4,8 @@ import { HomeHero, HeroLine, Quote } from "../../assets"
 
 export default function index() {
   return (
-    <section className="w-[90%] mx-auto flex flex-col mt-20 mb-8
-        lg:flex lg:flex-row lg:gap-10 lg:items-center lg:justify-between
-        2xl:w-[78%]">
+    <section className="w-[90%] xl:w-[80%] 2xl:w-[78%] mx-auto flex flex-col mt-20 mb-8
+        lg:flex lg:flex-row lg:gap-10 lg:items-center lg:justify-between">
         <section className="lg:w-[50%]">
             <h1 className="text-[45px] font-DM leading-[52px] text-[#170f49] font-bold
                 mb-5 md:mb-8 w-[90%] lg:w-[85%]">

@@ -11,3 +11,4 @@ export { default as Buttonwrapper } from "./Buttonwrapper"
 
 export { default as Herosection } from "./Herosection"
 export { default as Card } from "./Card"
+export { default as Services } from "./Services"

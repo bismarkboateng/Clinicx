@@ -16,8 +16,8 @@ export default function index() {
   }
 
   return (
-    <nav className="sticky top-0 w-[90%] mx-auto flex flex-row
-        items-center justify-between mt-5">
+    <nav className="sticky top-0 z-[100] w-[90%] mx-auto flex flex-row
+        items-center justify-between bg-white py-5">
       <div className="w-32 md:w-40 h-auto lg:mr-auto">
         <img
           src={Logo}

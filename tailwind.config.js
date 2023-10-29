@@ -14,8 +14,8 @@ module.exports = {
         'DM': ['DM Sans', 'sans-serif'],
         'Ranga': ['Ranga', 'cursive']
       },
-      cardShadow: {
-        "card": "0 2px 30px rgba(23, 15, 73, 0.1);"
+      boxShadow: {
+        "card": "0 2px 30px rgba(23, 15, 73, 0.1)"
       }
     },
   },
