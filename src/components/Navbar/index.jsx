@@ -16,7 +16,7 @@ export default function index() {
   }
 
   return (
-    <nav className="w-[90%] mx-auto flex flex-row
+    <nav className="sticky top-0 w-[90%] mx-auto flex flex-row
         items-center justify-between mt-5">
       <div className="w-32 md:w-40 h-auto lg:mr-auto">
         <img
@@ -56,7 +56,7 @@ export default function index() {
 
       { isMobile && (
         <div className="absolute bg-[#170f49] top-[8%] 
-          left-0 w-[100%] h-screen lg:hidden">
+          left-0 w-[100%] z-[100] h-screen lg:hidden">
             <Navlinks
               className="flex flex-col text-white gap-7 mt-10"
               linkItemStyles="text-lg text-white font-DM font-normal leading-[30px]
