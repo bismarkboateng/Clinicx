@@ -31,3 +31,11 @@ export { default as ValueImage } from "./images/Values-image.webp"
 // appointment
 export { default as Arrow } from "./images/Arrow.svg"
 export { default as curve } from "./images/curve.svg"
+export { default as Line } from "./images/Line.svg"
+
+// team
+export { default as Elisa } from "./images/Elisa.webp"
+export { default as Jessica } from "./images/Jessica.jpg"
+export { default as Maria } from "./images/Maria.jpg"
+export { default as Sarah } from "./images/Sarah.webp"
+export { default as Youn } from "./images/Youn.jpg"
