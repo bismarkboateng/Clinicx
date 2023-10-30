@@ -39,3 +39,8 @@ export { default as Jessica } from "./images/Jessica.jpg"
 export { default as Maria } from "./images/Maria.jpg"
 export { default as Sarah } from "./images/Sarah.webp"
 export { default as Youn } from "./images/Youn.jpg"
+
+// guiding component
+export { default as Bulb } from "./images/Bulb.svg"
+export { default as Diamond } from "./images/Diamond.svg"
+export { default as King } from "./images/King.svg"
