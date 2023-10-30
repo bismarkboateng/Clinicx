@@ -1,6 +1,6 @@
 import { 
   Navbar, Herosection, Services,
-  Experience
+  Experience, Values
 } from "../../components"
 
 
@@ -11,6 +11,7 @@ export default function index() {
       <Herosection />
       <Services />
       <Experience />
+      <Values />
     </main>
   )
 }
