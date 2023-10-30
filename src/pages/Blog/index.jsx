@@ -4,7 +4,7 @@ import Gridcards from "./Gridcards";
 
 export default function index() {
   return (
-    <div>
+    <div className="bg-[#fcfdfd]">
       <div>
       <Navbar />
       </div>
@@ -23,8 +23,38 @@ export default function index() {
       </div>
 
       {/* grids cards */}
+      <div className="p-24">
       <Gridcards />
+      <Gridcards />
+      <Gridcards />
+      <Gridcards />
+      </div>
 
+
+{/* newsletter subscription */}
+
+<div className="flex justify-around items-center bg-white rounded-lg shadow-xl">
+<div className="md:p-16 flex flex-row justify-around items-center">
+  {/* subscribe */}
+  <div>
+    <div className="text-3xl font-bold">Subscribe to our newsletter</div>
+    <div className="text-[#5b1e61]">Keep up to date with important news about our clinic and</div>
+    <div className="text-[#5b1e61]">your medical records.</div>
+  </div>
+  {/* email and button div */}
+  <div className="flex">
+  <input 
+      className="w-full px-3 py-2 placeholder-gray-500 text-gray-900 rounded-full border-2 border-blue-500 focus:outline-none focus:border-blue-700" 
+      type="email" 
+      placeholder="Your email address" 
+    />
+    <button 
+      className="px-8 py-4 text-white bg-[#7ea2e4] rounded-full text-lg font-semibold shadow-lg hover:bg-blue-600 active:bg-blue-700 focus:outline-none">
+        Subscribe
+      </button>
+  </div>
+</div>
+</div>
 
       
       
