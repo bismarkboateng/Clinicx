@@ -1,4 +1,7 @@
-import { Navbar, Herosection, Services } from "../../components"
+import { 
+  Navbar, Herosection, Services,
+  Experience
+} from "../../components"
 
 
 export default function index() {
@@ -7,6 +10,7 @@ export default function index() {
       <Navbar />
       <Herosection />
       <Services />
+      <Experience />
     </main>
   )
 }

@@ -38,8 +38,8 @@ export default function index() {
             <img
                 src={HomeHero}
                 alt="hero"
-                className="rounded-[30px] w-[100%] max-h-[550px] object-fit
-                    "
+                className="rounded-[30px] w-[100%] max-h-[550px] object-cover
+                    object-top"
             />
             <img
                 src={HeroLine}

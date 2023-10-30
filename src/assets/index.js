@@ -12,3 +12,9 @@ export { default as Pediatry } from "./images/pediatry.svg"
 export { default as Primary } from "./images/primary.svg"
 
 export { default as HomeHero } from "./images/Home-hero.webp"
+
+// experience
+export { default as ExperienceArrow } from "./images/experience-arrow.svg"
+export { default as ExperienceEuro } from "./images/experience-euro.svg"
+export { default as ExperienceImage } from "./images/Experience-image.webp"
+export { default as ZigZag } from "./images/experience-zag.svg"
