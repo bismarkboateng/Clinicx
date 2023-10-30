@@ -27,3 +27,7 @@ export { default as Open } from "./images/Open.svg"
 export { default as Loop } from "./images/Loop.svg"
 export { default as Love } from "./images/Love.svg"
 export { default as ValueImage } from "./images/Values-image.webp"
+
+// appointment
+export { default as Arrow } from "./images/Arrow.svg"
+export { default as curve } from "./images/curve.svg"
