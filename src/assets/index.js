@@ -44,3 +44,6 @@ export { default as Youn } from "./images/Youn.jpg"
 export { default as Bulb } from "./images/Bulb.svg"
 export { default as Diamond } from "./images/Diamond.svg"
 export { default as King } from "./images/King.svg"
+
+// testimonial component
+export { default as Star } from "./images/Star.svg"
