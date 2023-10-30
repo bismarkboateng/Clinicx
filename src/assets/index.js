@@ -47,3 +47,6 @@ export { default as King } from "./images/King.svg"
 
 // testimonial component
 export { default as Star } from "./images/Star.svg"
+
+// newsletter
+export { default as Subscribe } from "./images/subscribe.svg"
