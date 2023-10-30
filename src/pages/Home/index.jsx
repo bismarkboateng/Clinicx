@@ -1,6 +1,12 @@
+import { Navbar, Herosection, Services } from "../../components"
+
 
 export default function index() {
   return (
-    <div>Home page</div>
+    <main>
+      <Navbar />
+      <Herosection />
+      <Services />
+    </main>
   )
 }

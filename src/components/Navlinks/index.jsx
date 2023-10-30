@@ -1,7 +1,31 @@
+import { MdOutlineKeyboardArrowDown } from "react-icons/md"
 
+export default function index(props) {
 
-export default function index() {
   return (
-    <div>Navlinks components</div>
+    <ul className={props.className}>
+      <li className={props.linkItemStyles}>
+        Home
+      </li>
+
+      <li className={props.linkItemStyles}>
+        About us
+      </li>
+      
+      <li className={`${props.linkItemStyles} flex flex-row items-center gap-1`}>
+        <span>Services</span>
+        <i><MdOutlineKeyboardArrowDown
+          fontSize={25}
+        /></i>
+      </li>
+      
+      <li className={props.linkItemStyles}>
+        Blog
+      </li>
+      
+      <li className={props.linkItemStyles}>
+        Contact
+      </li>
+    </ul>
   )
 }

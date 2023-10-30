@@ -8,3 +8,7 @@ export { default as Team } from "./Team"
 export { default as Teamcard } from "./Teamcard"
 export { default as Footer } from "./Footer"
 export { default as Buttonwrapper } from "./Buttonwrapper"
+
+export { default as Herosection } from "./Herosection"
+export { default as Card } from "./Card"
+export { default as Services } from "./Services"
