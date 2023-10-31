@@ -55,3 +55,6 @@ export { default as Star } from "./images/Star.svg"
 
 // newsletter
 export { default as Subscribe } from "./images/subscribe.svg"
+
+// footer 
+export { default as FooterLogo } from "./images/footerLogo.svg"

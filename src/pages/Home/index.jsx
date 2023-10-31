@@ -2,7 +2,7 @@ import {
   Navbar, Herosection, Services,
   Experience, Values, Appointment,
   Team, Guiding, Testimonial, Subscribe,
-  News
+  News, Footer
 } from "../../components"
 
 
@@ -20,6 +20,7 @@ export default function index() {
       <News />
       <Testimonial />
       <Subscribe />
+      <Footer />
     </main>
   )
 }
