@@ -1,5 +1,3 @@
-import { ExperienceImage } from "../../assets"
-
 export default function index({ item }) {
   return (
     <section className="p-[20px] border border-[#eff0f6] bg-white
