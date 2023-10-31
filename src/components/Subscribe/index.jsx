@@ -9,7 +9,7 @@ export default function index() {
       <img 
         src={Subscribe}
         alt="send"
-        className="absolute right-0 top-[-9%]"
+        className="absolute right-0 top-[-17%]"
       />
 
       <div className="flex flex-col lg:flex-row 2xl:flex-row 2xl:gap-20">
@@ -43,3 +43,5 @@ export default function index() {
     </section>
   )
 }
+
+// absolute z-[10] top-0 bottom-[-5%] 

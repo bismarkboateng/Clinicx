@@ -16,8 +16,8 @@ export default function index() {
   const followText ="text-[#f5f5f5] font-DM text-sm leading-5 text-center"
 
   return (
-    <footer className="bg-[#170f49]">
-      <div className="w-[90%] xl:w-[80%] 2xl:w-[78%] pb-7 mx-auto pt-4
+    <footer className="absolute z-[-10] top-[80%] w-full left-0 bg-[#170f49]">
+      <div className="w-[90%] xl:w-[80%] 2xl:w-[78%]  pb-7 mx-auto pt-32 lg:pt-20 2xl:pt-20
         flex flex-col items-center lg:flex-row 2xl:justify-start">
         <div className="flex flex-col items-center lg:mt-0
           2xl:mr-[7%]">

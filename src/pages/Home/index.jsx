@@ -19,8 +19,10 @@ export default function index() {
       <Guiding />
       <News />
       <Testimonial />
-      <Subscribe />
-      <Footer />
+      <div className="relative">
+        <Subscribe />
+        <Footer />
+      </div>
     </main>
   )
 }
