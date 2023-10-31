@@ -18,7 +18,7 @@ export default function index({ item }) {
           {item.body}
       </p>
 
-      <Buttonwrapper className="w-[70%] md:w-[25%] lg:w-[60%] xl:w-[50%] bg-[#7ea2e4]
+      <Buttonwrapper className="w-[70%] md:w-[25%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] bg-[#7ea2e4]
         text-white rounded-[100px] py-[10px] px-[20px] font-medium text-lg
         text-center">
         <button className="outline-none border-none">
