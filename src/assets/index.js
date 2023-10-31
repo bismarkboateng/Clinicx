@@ -45,6 +45,11 @@ export { default as Bulb } from "./images/Bulb.svg"
 export { default as Diamond } from "./images/Diamond.svg"
 export { default as King } from "./images/King.svg"
 
+// news component
+export { default as NewsImage01 } from "./images/newImage01.jpg"
+export { default as NewsImage02 } from "./images/newsImage02.jpg"
+export { default as NewsImage03 } from "./images/newsImage03.jpg"
+
 // testimonial component
 export { default as Star } from "./images/Star.svg"
 
