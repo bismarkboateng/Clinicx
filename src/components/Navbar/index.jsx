@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import { RxHamburgerMenu } from "react-icons/rx"
 import { AiOutlineClose } from "react-icons/ai"
 
@@ -19,11 +20,13 @@ export default function index() {
     <nav className="sticky top-0 z-[100] px-[6%] mx-auto flex flex-row
         items-center justify-between bg-white py-5">
       <div className="w-32 md:w-40 h-auto lg:mr-auto">
-        <img
-          src={Logo}
-          alt="clinicx"
-          className="w-full h-auto object-fit"
-        />
+        <Link style={{ textDecoration: "none" }} to={"/"}>
+          <img
+            src={Logo}
+            alt="clinicx"
+            className="w-full h-auto object-fit"
+          />
+        </Link>
       </div>
 
       <Navlinks
