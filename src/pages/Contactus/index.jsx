@@ -1,4 +1,4 @@
-import { Navbar, Footer } from "../../components"
+import { Navbar, Footer, Subscribe } from "../../components"
 
 
 export default function index() {
@@ -38,7 +38,10 @@ export default function index() {
                         w-[84%] md:w-[90%] md:mx-10 lg:h-[60vh] h-[40vh] mx-6 rounded-3xl
                         "></div>
       </section>
-      <Footer></Footer>
+      <div className="relative">
+					<Subscribe />
+					<Footer />
+			</div>
     </div>
   )
 }

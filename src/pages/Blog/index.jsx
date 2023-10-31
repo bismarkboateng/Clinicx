@@ -29,8 +29,10 @@ export default function index() {
         {news.map((item) => (<Newscard key={item.id} item={item} />))}
         {/* <Gridcards /> */}
       </div>
-      <Subscribe />
-      <Footer />
+      <div className="relative">
+					<Subscribe />
+					<Footer />
+			</div>
   </div>
     
 )}

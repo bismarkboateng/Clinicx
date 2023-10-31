@@ -129,8 +129,10 @@ export default function index() {
 				</section>
 
 				<Team />
-				<Subscribe />
-				<Footer />
+				<div className="relative">
+					<Subscribe />
+					<Footer />
+				</div>
 			</main>
 		</>
 	)
