@@ -1,8 +1,27 @@
-# React + Vite
+<h1>Clinicx</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br >
+<img src="clinicx.png" width="100%" alt="clinicx web application" />
+<hr >
 
-Currently, two official plugins are available:
+<h4>Description</h4>
+Clinicx is a comprehensive healthcare companion, designed to streamline your medical journey. <br >
+Easily schedule appointments, access your medical records, receive reminders, and <br >
+communicate with your healthcare team in one secure and user-friendly platform. <br >
+Take control of your health and wellness with the Clinicx App <br >
+<br >
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h4>Installation Guide</h4>
+I'll assume you already have <strong>Node</strong> installed.
+
+Start by cloning the repo:
+
+```
+https://github.com/bismarkboateng/Clinicx.git
+cd Clinicx/
+yarn
+yarn dev
+```
+
+select the link running on your development server to preview<br>
+the application
