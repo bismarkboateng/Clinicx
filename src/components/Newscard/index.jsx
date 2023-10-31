@@ -8,6 +8,8 @@ export default function index({ item }) {
         src={item.image}
         alt="news image"
         className="rounded-[15px]"
+        data-aos="zoom-in"
+        data-aos-duration="500"
       />
       <h3 className="w-[80%] text-2xl text-[#170f49] font-bold leading-[30px]
         mt-4">

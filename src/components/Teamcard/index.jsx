@@ -7,6 +7,8 @@ export default function index({ item }) {
           alt="dentist"
           className="w-[100%] max-h-[300px] object-cover 
           object-top rounded-[10px]"
+          data-aos="zoom-in"
+          data-aos-duration="500"
         />
         <h1 className="text-[#170f49] font-DM text-2xl font-bold
           leading-[30px] text-center mt-3">

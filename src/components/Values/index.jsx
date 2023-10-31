@@ -43,6 +43,8 @@ export default function index() {
             alt="medical doctor" 
             className="w-[100%] max-h-[600px] object-cover object-top
             rounded-[30px]"
+            data-aos="zoom-in"
+            data-aos-duration="500"
           />
 
           <img

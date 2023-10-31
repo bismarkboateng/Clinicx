@@ -40,6 +40,8 @@ export default function index() {
                 alt="hero"
                 className="rounded-[30px] w-[100%] max-h-[550px] object-cover
                     object-top"
+                data-aos="zoom-in"
+                data-aos-duration="500"
             />
             <img
                 src={HeroLine}
