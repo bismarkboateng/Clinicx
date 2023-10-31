@@ -1,6 +1,3 @@
-
-import { Brain } from "../../assets"
-
 export default function index({ icon, header, body  }) {
   return (
     <section className="sticky py-[20px] px-[30px] rounded-[20px]

@@ -4,16 +4,32 @@ import { RxHamburgerMenu } from "react-icons/rx"
 import { AiOutlineClose } from "react-icons/ai"
 
 import { Logo} from "../../assets"
-import { Navlinks, Buttonwrapper } from "../../components"
+import { Navlinks, Buttonwrapper, Servicecard } from "../../components"
+import { service } from "../Services/service-data"
 
 
 
 
 export default function index() {
   const [isMobile, setIsMobile] = useState(false)
+  const [onHover, setOnHover] = useState(false)
 
   const onToggleMenuHandler = () => {
     setIsMobile(prevIsMobile => !prevIsMobile)
+  }
+
+  const onMouseOverHandler = () => {
+    setOnHover(true)
+    console.log("Mouse Over")
+  }
+
+  const onMouseLeaveHandler = () => {
+    setOnHover(false)
+    console.log("Mouse leave")
+  }
+
+  const onServiceClickHandler = () => {
+    setOnHover(prevValue => !prevValue)
   }
 
   return (
@@ -30,6 +46,9 @@ export default function index() {
       </div>
 
       <Navlinks
+        onServiceClickHandler={onServiceClickHandler}
+        onMouseOverHandler={onMouseOverHandler}
+        onMouseLeaveHandler={onMouseLeaveHandler}
         className="hidden lg:flex lg:flex-row gap-9 lg:mr-10"
         linkItemStyles = "font-DM text-base hover:text-[#7ea2e4] font-normal leading-[30px] text-[170f49] cursor-pointer"
       />
@@ -58,7 +77,7 @@ export default function index() {
       </div>
 
       { isMobile && (
-        <div className="absolute bg-[#170f49] top-[8%] 
+        <div className="absolute bg-[#170f49] top-20 
           left-0 w-[100%] z-[100] h-screen lg:hidden">
             <Navlinks
               className="flex flex-col text-white gap-7 mt-10"
@@ -77,6 +96,30 @@ export default function index() {
             </Buttonwrapper>
         </div>
       )}
+
+
+      { onHover && 
+        <div className="absolute top-20 left-0 w-[100%] grid grid-cols-1 md:grid-cols-2
+          md:gap-y-5 lg:grid-cols-3 lg:gap-y-5 pl-[4%] pt-[3%] bg-white pb-[2%]">
+            {service.map((item) => (
+              <div key={item.id}>
+                <img
+                  src={item.icon}
+                  alt="neurology"
+                  className="text-[#170f49]"
+                />
+
+              <h4 className="text-lg font-bold leading-6 text-[#170f49]
+                font-DM mt-3">
+                {item.header}
+              </h4>
+              <p className="font-DM text-[#6f6c90] text-lg leading-[30px] mb-3 mt-3">
+                {item.body}
+              </p>
+              </div>
+            ))}
+        </div>
+      }
 
     </nav>
   )

@@ -17,7 +17,12 @@ export default function index(props) {
         </li>
       </Link>
       
-      <li className={`${props.linkItemStyles} flex flex-row items-center gap-1`}>
+      <li 
+        className={`${props.linkItemStyles} flex flex-row items-center gap-1`}
+        onMouseOver={props.onMouseOverHandler}
+        onMouseLeave={props.onMouseLeaveHandler}
+        onClick={props.onServiceClickHandler}
+      >
         <span>Services</span>
         <i><MdOutlineKeyboardArrowDown
           fontSize={25}
